@@ -37,7 +37,15 @@
         default:
           echo "Invalid Grade";
       }
+      /* También se puede
+      switch($val):
+        case:
+          break;
+        case:
+          break:
+      endswitch;
       echo "<br>", $grade;
+      */
      ?>
 
   </body>

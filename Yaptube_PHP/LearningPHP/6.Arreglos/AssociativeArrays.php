@@ -6,10 +6,12 @@
   </head>
   <body>
 
+    <!--
     <form action="AssociativeArrays.php" method="post">
       <input type="text" name="student">
       <input type="submit">
     </form>
+    -->
 
     <?php
       /* Un arreglo asociativo es una clase especial de arreglo, en la cual    *
@@ -18,13 +20,24 @@
        * me permitirán acceder a la información de forma distinta.             */
 
        $grades=array("Jim"=>"A+", "Pam"=>"B-", "Oscar"=>"C+");
-       echo $grades[$_POST["student"]];
-       /*
+       //<!-- echo $grades[$_POST["student"]]; -->
+
        $grades["Jim"]="F";
        echo $grades["Jim"], "<br>";
        echo $grades["Pam"], "<br>";
        echo $grades["Oscar"], "<br>";
-       */
+
+       // O también puedo imprimir:
+       echo "<br><br>";
+       print_r($grades);
+
+       // O incluso:
+       echo "<br><br>";
+       foreach ($grades as $key => $value) {
+         echo "La calificación de $key es $value <br>";
+       }
+
+
 
      ?>
   </body>

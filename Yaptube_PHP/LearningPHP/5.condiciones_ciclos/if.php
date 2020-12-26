@@ -10,15 +10,21 @@
       $isTall = false;
       if ($isMale && $isTall){ //Funciona igual que en C y C++
         echo "You are a tall male";
-      } elseif ($isMale == 5) {
+      } else if ($isMale == 5) {
         echo "WTF";
-      } elseif ($isMale && !$isTall) {
+      } else if ($isMale && !$isTall) {
         echo "You are a short male";
-      } elseif (!$isMale && $isTall) {
+      } else if (!$isMale && $isTall) {
         echo "You are tall, but not a male";
       } else {
         echo "You are not tall and not male";
       }
+      /* También sirve
+      if(expresión):
+      else if(expresión):
+      else:
+      endif;
+      */
      ?>
   </body>
 </html>

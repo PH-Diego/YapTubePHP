@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <form action="URL.php" method="get">
+    <form action="URL_GET.php" method="get">
       Name: <input type="text" name="name"><br>
       <input type="submit">
     </form>

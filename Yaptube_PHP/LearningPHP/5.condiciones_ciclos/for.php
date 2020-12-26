@@ -7,7 +7,7 @@
   <body>
     <?php
       $luckyNumbers = array(4, 8, 15, 16, 23, 42);
-      for( $i=0 ; $i<count($luckyNumbers) ; $i++ ){
+      for( $i=0 ; $i<count($luckyNumbers) ; $i++ ){ // O sizeof()
         echo "$i $luckyNumbers[$i] <br>";
       }
      ?>

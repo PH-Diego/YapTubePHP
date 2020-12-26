@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="Yap!tube es una plataforma web chilena que permite compartir videos de forma online.">
     <title>Yap!tube</title>
   </head>
   <body style="background-color:lightblue">
@@ -11,15 +12,8 @@
     </header>
 
     <main>
-      <h2> Logueo </h2>
-
-      <form action="logueo.php" method="post">
-        <input type="text" name="nom" placeholder="Ingresa tu id de cuenta">
-        <input type="password" name="pass" placeholder="Ingresa tu contraseña">
-        <input type="submit" value="Loguearse">
-      </form>
-
-
+      
+      <p> Este es el Home</p>
     </main>
 
     <footer>

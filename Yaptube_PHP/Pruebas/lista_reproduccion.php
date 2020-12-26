@@ -11,14 +11,7 @@
     </header>
 
     <main>
-      <h2> Logueo </h2>
-
-      <form action="logueo.php" method="post">
-        <input type="text" name="nom" placeholder="Ingresa tu id de cuenta">
-        <input type="password" name="pass" placeholder="Ingresa tu contraseña">
-        <input type="submit" value="Loguearse">
-      </form>
-
+      <p> Este es una lista de reproducción </p>
 
     </main>
 
